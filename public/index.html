@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wordle ES</title>
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+  <body>
+    <div id="current-game" class="content">
+      <div class="title">
+        <h2>Wordle ES</h2>
+      </div>
+      <div class="table"></div>
+      <div class="keyboard"></div>
+    </div>
+    <div id="hidden-timer" class="content">
+      <div id="timer" class="timer">0:00</div>
+      <div class="statistics">
+        <div id="words" class="statistics-rows"></div>
+        <div id="attempts" class="statistics-rows"></div>
+        <div id="wins-by-row" class="statistics-rows"></div>
+      </div>
+    </div>
+    <div id="win-game">
+      You win the game. Thank you for play
+    </div>
+  </body>
+  <script type="module" src="/js/index.js"></script>
+</html>
